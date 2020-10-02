@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="bootstrap/css/bootstrap.min.css"  rel="stylesheet" id="bootstrap-css">
+<link href="css/custom.css">
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+    <form method="post" action="./Dashboard.aspx" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjc0MjcwODA2D2QWAmYPZBYCAgEPZBYCAgIPZBYWAgMPDxYCHgRUZXh0BQxFQjEvMTU3NDIvMTRkZAIEDw8WAh8ABRFLSVBLSVJVSSAgS0VWSU4gIGRkAgUPDxYCHwAFCDMzODY2NjE3ZGQCBg8PFgIfAAUETWFsZWRkAgcPDxYCHwAFCDkvOS8yMDE0ZGQCCA8PFgIfAGVkZAIJDw8WAh8ABQZLRU5ZQU5kZAIKDw8WAh8ABQEsZGQCDA8PFgIfAGVkZAINDw8WAh8AZWRkAg4PDxYCHwAFBTIwMjAwZGRktoB5JS/mvlmU8MFUFsweZgGeorIjCRHoeQjM8305E6M=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B543B226" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJBunZSg0jEare+cBNwjZV7cUxcRtBZhGU4e4YAFYxe+lbl7rtrJlC1TFI90SE4mMcBHxeJTn53AqEFn8ADpQKR" />
+</div>
+        <section id="container">
+            <!--header start-->
+            <header class="header fixed-top clearfix">
+                <!--logo start-->
+                <div class="brand">
+                    <a href="Dashboard.aspx" class="logo">
+                        <h4>Student Portal</h4>
+                    </a>
+                    <div class="sidebar-toggle-box">
+                        <div class="fa fa-bars"></div>
+                    </div>
+                </div>
+                <!--logo end-->
+                <div class="top-nav clearfix">
+                    <!--search & user info start-->
+                    <ul class="nav pull-right top-menu">
+                        
+                        
+                        <li id="header_notification_bar" class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="badge bg-warning">1</span>
+                            </a>
+                            <ul class="dropdown-menu extended notification pre-scrollable">
+                                <li>
+                                    <p>Notifications</p>
+                                </li>
+                                
+                                <li>
+                                    <div class="alert alert-info clearfix">
+                                        <span class="alert-icon"><i class="fa fa-bolt"></i>
+                                            
+                                        </span>
+                                        <div class="noti-info">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                
+                                <img id="ImgProfilePic" src="" />
+                                
+                                
+                                <span class="username">KIPKIRUI  KEVIN  </span>
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu extended logout">
+                                <li><a href="Dashboard.aspx"><i class=" fa fa-suitcase"></i>Dashboard</a></li>
+                                <li><a href="Default.aspx"><i class="fa fa-key"></i>Log Out</a></li>
+                            </ul>
+                        </li>
+                        <!-- user login dropdown end -->
+                    </ul>
+                    <!--search & user info end-->
+                </div>
+            </header>
+            <!--header end-->
+            <!--sidebar start-->
+            <aside>
+                <div id="sidebar" class="nav-collapse">
+                    <!-- sidebar menu start-->
+                    <div class="leftside-navigation">
+                        <ul class="sidebar-menu" id="nav-accordion">
+                            <li>
+                                <a class="active" href="Dashboard.aspx">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="javascript:;">
+                                    <i class="fa fa-money"></i>
+                                    <span>Financials</span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="feestatement.aspx">Fees Statement</a></li>
+                                    
+                                </ul>
+                            </li>
+                           
+                                   
+                                    
+                                    
+                                
+                            <li class="sub-menu">
+                                <a href="javascript:;">
+                                    <i class="fa fa-university"></i>
+                                    <span>Examination</span>
+                                </a>
+                                <ul class="sub">
+                                    
+                                    <li></li>
+                                    <li><a href="Provisional Transcript.aspx">Provisional Results</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="HostelBking.aspx">
+                                    <i class="fa fa-bed"></i>
+                                    <span>Hostel Booking</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Change Password.aspx">
+                                    <i class="fa fa-cog"></i>
+                                    <span>Reset Password</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- sidebar menu end-->
+                </div>
+            </aside>
+            <!--sidebar end-->
+            <!--main content start-->
+
+            <section id="main-content" style="padding: 10px">
+                <section class="wrapper">
+                    
+
+    <style>
+        .Padding {
+            padding: 5px;
+        }
+
+        .ClassDiv {
+            background-color: black;
+            padding: 3px;
+            border-radius: 8px;
+        }
+
+            .ClassDiv:hover {
+                background-color: #ff6a00;
+            }
+    </style>
+    
+    <marquee onmouseover="this.stop()" padding="2px" onmouseout="this.start()" scrollamount="5" direction="left" scrolldelay="100">
+    <span id="Main__lblError" class="label label-danger" style="background-color:Black;font-size:Larger;font-weight:bold;"></span>
+        </marquee>
+    <!-- //market-->
+    <div class="market-updates">
+        <div class="col-md-4 market-update-gd">
+            <div class="market-update-block clr-block-4">
+                <div class="col-md-4 market-update-right">
+                    <i class="fa fa-pencil"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4 style="text-align: center">Registered Units</h4>
+                   <hr />
+                    <h3>0</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-4 market-update-gd">
+            <div class="market-update-block clr-block-2">
+                <div class="col-md-4 market-update-right">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4 style="text-align: center">Attempted Units</h4>
+                    <hr />
+                    <h3>49</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-4 market-update-gd">
+            <div class="market-update-block clr-block-3">
+                <div class="col-md-4 market-update-right">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4 style="text-align: center">Registration Status</h4>
+                    <hr />
+                    <h4>Not Registered</h4>
+                    
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="row">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><i class="fa fa-user"></i>Basic information</div>
+                    <div class="panel-body">
+                        <div class="col-md-3 col-lg-3 marginbottom20" align="center">
+                            
+                            <img id="Main__ImgProfilePic" class="img-responsive img-75p" src="" style="height:100px;" />
+                        </div>
+                        <table class="table table-bordered table-condensed">
+                            <tbody>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Admission No</td>
+                                    <td>
+                                        <span id="Main__lblNo">EB1/15742/14</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Names</td>
+                                    <td>
+                                        <span id="Main__lblNames">KIPKIRUI  KEVIN  </span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">ID/ Passport</td>
+                                    <td>
+                                        <span id="Main__lblIDNo">33866617</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Gender</td>
+                                    <td>
+                                        <span id="Main__lblGender">Male</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Date of Birth</td>
+                                    <td>
+                                        <span id="Main__lblDOB">9/9/2014</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">County</td>
+                                    <td>
+                                        <span id="Main__lblCounty"></span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Country</td>
+                                    <td>
+                                        <span id="Main__lblNationality">KENYAN</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Phone number</td>
+                                    <td>
+                                        <span id="Main__lblPhoneNo1">,</span></td>
+                                </tr>
+                                <tr style="display: none">
+                                    <td style="font-weight: bold; color: #000000;">Postal code</td>
+                                    <td>
+                                        <span id="Main__lblPostCode"></span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Email</td>
+                                    <td>
+                                        <span id="Main__lblEmail"></span></td>
+                                </tr>
+                                <tr style="display: none">
+                                    <td style="font-weight: bold; color: #000000;">City</td>
+                                    <td>
+                                        <span id="Main__lblCity"></span></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: bold; color: #000000;">Postal Address</td>
+                                    <td>
+                                        <span id="Main__lblPostalAddress">20200</span></td>
+                                </tr>
+                                <tr style="display: none">
+                                    <td style="font-weight: bold; color: #000000;">Fax Number</td>
+                                    <td>
+                                        <span id="Main__lblFaxNo"></span></td>
+                                </tr>
+                                <tr style="display: none">
+                                    <td style="font-weight: bold; color: #000000;">Home Address</td>
+                                    <td>
+                                        <span id="Main__lblHomeAddress1"></span></td>
+                                </tr>
+                                <tr style="display: none">
+                                    <td style="font-weight: bold; color: #000000;">Home page</td>
+                                    <td>
+                                        <span id="Main__lblHomePage"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><i class="fa fa-envelope"></i>Notifications</div>
+                    <div class="panel-body">
+                        <marquee onmouseover="this.stop()" height="300px" onmouseout="this.start()" scrollamount="5" direction="up" scrolldelay="100">
+                                                           
+                        <div class="notify-w3ls">
+                            <div class="alert alert-info clearfix" >
+                                <span class="alert-icon"><i class="fa fa-bell-o"></i></span>
+                                <div class="notification-info">
+                                    <ul class="clearfix notification-meta">
+                                        <li class="pull-left notification-sender">
+                                            
+                                            <span><a href="#"><img src="Images/NEW2.gif" />
+                                                
+                                                <br /></a></span>  </li>
+                                        <li class="pull-right notification-time"></li>
+                                    </ul>
+                                    <p>
+                                      
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                                </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="submit" name="ctl00$Main_$Button1" value="Update information" id="Main__Button1" class="btn btn-warning" />
+
+                </section>
+            </section>
+            <!--main content end-->
+        </section>
+        <div class="footer navbar-fixed-bottom clearfix">
+            <div class="wthree-copyright" style="text-align: center">
+                <p>© =DateTime.Now.Year Chuka University. All rights reserved | Design by <a href="dynasoftsolutions.co.ke">DSL Solution</a></p>
+            </div>
+        </div>
+      ript>
+
+    </form>
+</body>
+</html>
